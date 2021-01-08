@@ -1,0 +1,27 @@
+{
+    "name": "monda/monda-minio-sdk",
+    "description": "php minio sdk",
+    "require": {
+        "php": ">=7.2",
+        "aws/aws-sdk-php": "^3.0.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "^8.5"
+    },
+    "authors": [
+        {
+            "name": "chenzf",
+            "email": "mrchenzifan@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Minoi\\": "src/"
+        },
+        "files" : [
+            "src/function.php"
+        ]
+    }
+}
