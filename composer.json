@@ -1,5 +1,5 @@
 {
-    "name": "monda/monda-minio-sdk",
+    "name": "mondagroup/monda-minio-sdk",
     "description": "php minio sdk",
     "require": {
         "php": ">=7.2",
