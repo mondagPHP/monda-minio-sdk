@@ -44,6 +44,6 @@ if (!function_exists("generateMiniOFileName")) {
     function generateMiniOFileName(string $uploadFileName): string
     {
         $info = pathinfo($uploadFileName);
-        return date("Y/m/d/") . uniqid('', true) . "." . $info["extension"];
+        return date("Y/m/d/") . uniqid('', false) . "." . $info["extension"];
     }
 }
