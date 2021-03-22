@@ -3,7 +3,7 @@
     "description": "php minio sdk",
     "require": {
         "php": ">=7.2",
-        "aws/aws-sdk-php": "^3.0.0",
+        "aws/aws-sdk-php": "3.173.28",
         "ext-json": "*"
     },
     "require-dev": {
